@@ -1,0 +1,58 @@
+@import './reset.css';
+
+html {
+    font-size: 16px;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.root {
+    width: 1024px;
+}
+
+header {
+    background-image: url("http://webmadewell.com/wp-content/uploads/2018/01/img-bg-sample-parallax-header.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 4rem;
+}
+
+header h1 {
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    padding: 30px;
+}
+
+.faceContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.faceContainer img {
+    width: 200px;
+    height: 200px;
+}
+
+main h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px 0;
+}
